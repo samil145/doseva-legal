@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Doseva Support</title>
+  <style>
+    :root {
+      --bg: #f4f7ff;
+      --card: #ffffff;
+      --text: #1b2433;
+      --muted: #5f6f86;
+      --line: #dce6ff;
+      --accent: #2667ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #eaf0ff 0%, var(--bg) 40%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 20px 16px 42px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(38, 103, 255, 0.08);
+    }
+    h1 { margin: 0 0 8px; font-size: 1.9rem; }
+    h2 { margin: 22px 0 8px; font-size: 1.1rem; }
+    p { margin: 8px 0; }
+    ul { margin: 8px 0 8px 20px; padding: 0; }
+    li { margin: 6px 0; }
+    .muted { color: var(--muted); }
+    .links {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .btn {
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-weight: 600;
+      border: 1px solid var(--line);
+      color: var(--accent);
+      background: #fff;
+    }
+    .btn.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+    .faq-item {
+      border-top: 1px solid var(--line);
+      padding-top: 12px;
+      margin-top: 12px;
+    }
+    footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>Doseva Support</h1>
+      <p class="muted">Support and legal information for the Doseva iOS app.</p>
+      <p>Doseva helps you track medications, schedule reminders, view dose history, and export medication adherence reports as PDF.</p>
+      <p>Premium subscriptions are billed and managed by Apple through the App Store.</p>
+
+      <div class="links" aria-label="Legal links">
+        <a class="btn primary" href="privacy.html">Privacy Policy</a>
+        <a class="btn" href="terms.html">Terms of Use</a>
+      </div>
+
+      <h2>Support Contact</h2>
+      <p><strong>Name:</strong> Shamil Bayramli</p>
+      <p><strong>Email:</strong> <a href="mailto:samil.bayramli.sb@gmail.com">samil.bayramli.sb@gmail.com</a></p>
+
+      <h2>FAQ</h2>
+      <div class="faq-item">
+        <p><strong>How do I restore purchases?</strong></p>
+        <p>Open the paywall or Settings and tap <em>Restore Purchases</em>. Subscription status is restored through Apple for your Apple ID.</p>
+      </div>
+      <div class="faq-item">
+        <p><strong>How do I manage or cancel my subscription?</strong></p>
+        <p>Use Apple subscription settings. Billing, renewal, cancellation, and refunds are handled by Apple.</p>
+      </div>
+      <div class="faq-item">
+        <p><strong>Why might reminders not appear?</strong></p>
+        <p>Doseva uses local iOS notifications. Delivery depends on your notification permission and iOS/device settings (for example Focus mode and system notification behavior).</p>
+      </div>
+      <div class="faq-item">
+        <p><strong>Does Doseva require an account?</strong></p>
+        <p>No in-app account or login flow is used in the current app code.</p>
+      </div>
+      <div class="faq-item">
+        <p><strong>Can I export my data?</strong></p>
+        <p>Yes. Doseva can generate a PDF report and open the iOS share sheet so you can save or share it.</p>
+      </div>
+
+      <footer>
+        Last updated: April 6, 2026
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
